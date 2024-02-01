@@ -18,14 +18,14 @@ def callback_pitch(indata, frames, time, status):
     if db >= -50:
         
         _f0 = librosa.yin(y=data, sr=sr, fmin=60, fmax=440)
-        _f0 = [find_nearest(hz_array, i) for i in list(_f0)]
+        _f0 = [find_nearest(frequency_array, i) for i in list(_f0)]
         latest_notes_list = []
 
         for i in _f0:
             latest_notes_list.append(float(i))
 
         max_note = max(latest_notes_list, key=latest_notes_list.count)
-        pitch_name = hz_notename[max_note]
+        pitch_name = frequency2notename_dictionary[max_note]
 
         if before_pitch_name != pitch_name:
             before_pitch_name = pitch_name
