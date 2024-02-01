@@ -6,7 +6,6 @@
 
 ## 起動方法
 
-
 ## ファイル構造
 ```
 master-thesis(root)
