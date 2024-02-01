@@ -9,13 +9,17 @@
 
 ## ファイル構造
 ```
-/---- LICENSE
-  |
-  --- README.md
-  |
-  --- Script
-         |
-         --- Server
-         |
-         --- HoloLens
-```
+master-thesis(root)
+├ app
+│  ├ __init__.py
+│  ├ __main__.py
+│
+│
+├ test
+├ lib
+├ LISENCE
+├ README.md
+└ requirements.txt
+ 
+ 
+ 
