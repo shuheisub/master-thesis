@@ -5,7 +5,7 @@
 * 修士論文で使用したスクリプト
 
 ## 起動方法
-
+hogehoge
 ## ファイル構造
 ```
 master-thesis(root)
