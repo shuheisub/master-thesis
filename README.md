@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 master-thesis(root)
 ├ app
 │  ├ __init__.py
-│  ├ __main__.py
+│  └ __main__.py
 │
 │
 ├ test
