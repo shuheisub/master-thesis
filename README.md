@@ -10,12 +10,15 @@
 # install pakages
 $ conda install --file requirements.txt 
 
+$ python -m app
 ```
 
 * pipを使用する場合
 ```
 # install pakages
 $ pip install -r requirements.txt
+
+$ python -m app
 ```
 
 ## ファイル構造
