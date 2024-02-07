@@ -28,9 +28,9 @@ master-thesis(root)
 │  ├ __init__.py
 │  └ __main__.py
 │
-│
-├ test
-├ lib
+├ config
+├ tests
+├ libs
 ├ LISENCE
 ├ README.md
 └ requirements.txt
