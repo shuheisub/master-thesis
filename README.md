@@ -29,6 +29,8 @@ master-thesis(root)
 │  └ __main__.py
 │
 ├ config
+│  └ config.ini 
+│  
 ├ tests
 ├ libs
 ├ LISENCE
