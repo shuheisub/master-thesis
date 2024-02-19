@@ -32,6 +32,8 @@ master-thesis(root)
 │  └ config.ini 
 │  
 ├ tests
+│  ├ test01
+│  └ test02
 ├ libs
 ├ LISENCE
 ├ README.md
